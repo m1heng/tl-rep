@@ -1,0 +1,22 @@
+{
+  "name": "project-references-demo",
+  "version": "1.0.0",
+  "description": "To compare the performance of project references with webpack & ts-loader vs webpack and tsc run in a separate process.",
+  "main": "index.js",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appzuka/project-references-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appzuka/project-references-demo.git/issues"
+  },
+  "homepage": "https://github.com/appzuka/project-references-demo.git"
+}

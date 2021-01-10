@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig-base.json",
+  "files": ["src/index.tsx"],
+  "references": [
+    {
+      "path": "../core"
+    },
+    {
+      "path": "../animals"
+    },
+    {
+      "path": "../zoo"
+    }
+  ]
+}
